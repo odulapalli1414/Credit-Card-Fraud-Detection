@@ -4,16 +4,18 @@
 This project aims to develop a machine learning model for detecting fraudulent credit card transactions. The dataset used contains credit card transactions made by European cardholders. It is highly imbalanced, with only a small fraction of transactions being fraudulent.
 
 ## Project Structure
-- **data**: Contains the dataset (`creditcard.csv`) used for training and evaluation.
 - **notebooks**: Jupyter notebooks used for data exploration, preprocessing, model training, and evaluation.
 - **README.md**: Overview of the project, setup instructions, and usage guidelines.
-- **scripts**: Utility scripts for data preprocessing and model evaluation.
-- **models**: Trained machine learning models for fraud detection.
+
+## Data Source
+The dataset used in this project is available on Kaggle at [Credit Card Fraud Detection]([https://www.kaggle.com/code/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews/input](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)).
+
 
 ## Setup Instructions
 1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd credit-card-fraud-detection`
-3. Run the Jupyter notebooks in the `notebooks` directory to explore the data, preprocess it, train models, and evaluate their performance.
+2. Download the dataset from the Kaggle link provided above. 
+3. Navigate to the project directory: `cd credit-card-fraud-detection`
+4. Run the Jupyter notebooks in the `notebooks` directory to explore the data, preprocess it, train models, and evaluate their performance.
 
 ## Usage
 1. **Data Preprocessing**: Use the provided notebooks to preprocess the dataset, including scaling, handling missing values, and balancing class distribution.
